@@ -23,7 +23,6 @@ export default function Home() {
       .then((res) => console.log(res))
   }, [])
 
-  console.log(timeline)
   return (
     <div className='appContainer'>
       <header className={styles.header}>

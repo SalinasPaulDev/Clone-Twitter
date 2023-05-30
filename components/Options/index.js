@@ -12,12 +12,12 @@ const Options = () => {
           <House />
         </a>
       </Link>
-      <Link href="/Search">
-        <a>
-          <Search />
-        </a>
-      </Link>
-      <Link href="/compose/d-twit">
+      {/* <Link href='/Search'> */}
+      <div onClick={() => alert('Proximamente!')}>
+        <Search />
+      </div>
+      {/* </Link> */}
+      <Link href='/compose/d-twit'>
         <a>
           <Write />
         </a>
