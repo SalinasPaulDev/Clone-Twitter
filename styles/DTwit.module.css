@@ -1,0 +1,63 @@
+.textAreaDtwit {
+  border: 0;
+  font-size: 21px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  min-height: 8em;
+  background-color: #0f2736;
+  border-radius: 3px;
+  margin: auto auto 15px;
+  resize: none;
+  border: 3px solid transparent;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.sectionDTwit,
+.headDtwit {
+  padding: 15px;
+  padding-left: 5px;
+}
+
+.sectionDTwit {
+  height: 85vh;
+  background-color: transparent;
+}
+
+.borderActive {
+  border: 3px dashed #0099ff
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.closeImage {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border-radius: 999px;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #FFF;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.btn {
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: start;
+}

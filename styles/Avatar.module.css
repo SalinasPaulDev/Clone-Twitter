@@ -1,0 +1,9 @@
+.avatar {
+  width: 2.4rem;
+  border-radius: 90%;
+  margin: 10px;
+  -webkit-border-radius: 90%;
+  -moz-border-radius: 90%;
+  -ms-border-radius: 90%;
+  -o-border-radius: 90%;
+}

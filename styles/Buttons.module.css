@@ -1,0 +1,48 @@
+.githubAuthBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  border: 0;
+  color: #fff;
+  border-radius: 9999px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 800;
+  width: 70%;
+  padding: 8px 26px;
+  transition: opacity 0.3 ease;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  -webkit-transition: opacity 0.3 ease;
+  -moz-transition: opacity 0.3 ease;
+  -ms-transition: opacity 0.3 ease;
+  -o-transition: opacity 0.3 ease;
+}
+
+.dtwitearBtn {
+  padding: 6px 15px;
+  border-radius: 44px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background-color: var(--primary);
+  transition: opacity 0.3 ease;
+  user-select: none;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  -ms-border-radius: 44px;
+  -o-border-radius: 44px;
+  -webkit-transition: opacity 0.3 ease;
+  -moz-transition: opacity 0.3 ease;
+  -ms-transition: opacity 0.3 ease;
+  -o-transition: opacity 0.3 ease;
+}
+
+.dtwitearBtn[disabled]{
+  pointer-events: none;
+  opacity: 0.3;
+
+}
